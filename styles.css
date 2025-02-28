@@ -1,0 +1,181 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background: url('jack-ward-rknrvCrfS1k-unsplash.jpg') center center/cover;
+    
+    min-height: 160vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    background-color: #007ee5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    
+}
+
+/* Navigation Links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+}
+.company-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #f7f7f7;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+   
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 8px 12px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Different Hover Effects for Search & Reset Buttons */
+.search-bar button:first-of-type:hover {
+    background-color: #0d49c2;
+    color:#ffffff
+}
+
+.search-bar button:last-of-type:hover {
+    background-color: #eb0505;
+    color: rgb(255, 255, 255);
+}
+
+/* Home Area - Centered Content */
+.home-area {
+    background: rgba(3, 102, 231, 0.185);
+    width: 80%;
+    max-width: 800px;
+    color: rgb(255, 255, 255);
+    
+    padding: 50px;
+    border-radius: 10px;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px; /* This should be the same as the navbar's height */
+    
+
+    position:relative ; /* Keeps it visible while scrolling */
+    top: 34%; /* Centers it vertically */
+    left: 10%;
+    transform: translate(-50%, -50%);
+    z-index: 999; /* Ensures it stays on top */
+}
+
+
+
+/* Title */
+.home-area { 
+        font-family: "Pacifico", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 10vh;
+        color: #f7f7f7;
+        text-shadow: 0 0 10px #00000037, 0 0 20px #0000003e, 0 0 30px #00000037;
+}
+
+/* Paragraph */
+.home-area p {
+    font-size: x-large;
+    color: #f7f7f7;
+    text-shadow: 0 0 10px #00000037, 0 0 20px #0000003e, 0 0 30px #00000037;
+    line-height: 1.5;
+}
+
+/* Search Results */
+/* Search Results */
+.search-results {
+    display: none;
+    width: 60%;                   /* Reduced width */
+    max-width: 600px;              /* Slightly narrower maximum width */
+    margin-left: 900px;   
+    margin-top: -400px;
+    margin-bottom: 700px;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+}
+
+
+.result-item {
+    margin-bottom: 50px;  /* Increased spacing for better layout */
+    text-align: left;
+}
+
+.result-item h3 {
+    margin: 0;
+    font-size: 2em;  /* Larger heading size */
+    color: #007ee5;
+}
+
+.result-image {
+    width: 100%;               /* Full width of the container */
+    height: 100%;              /* Full height of the container */
+    object-fit: cover;          /* Ensures the image covers the box */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+
+.result-item p {
+    font-size: 1.3em;  /* Larger text for description */
+    line-height: 1.8;
+    color: #333;
+}

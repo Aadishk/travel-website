@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('jack-ward-rknrvCrfS1k-unsplash.jpg') no-repeat center center fixed !important;
+    background-size: cover;
+    font-size: 16px;
+    font-family:sans-serif;
+   
+}
+
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    background-color: #007ee5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+/* Navigation Links */
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+}
+
+.company-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #f7f7f7;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.container{
+
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #00000031;
+    display:flex ;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+    background:#f4000000;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #000000;
+    color: #ffff;
+}
+h1{
+    margin-bottom: 10px;
+    font-size: 30;
+    color: #ffffff;
+}
+
+h3{
+    font-size: 20px;
+    color: #ffffff;
+}
+.container p{
+    margin-bottom: 40px;
+    font-size: 20;
+    color: #ffffff;
+}
+.input-row{
+ display:flex;
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+
+.input-row .input-group{
+ flex-basis: 45%;
+}
+input{
+ width: 100%;
+ border: #ff0000;
+ border-top: 5px solid #ffffff;
+ border-bottom: 1px solid #ffffff;
+ outline:none;
+ padding-bottom: 5px;
+}
+
+textarea{
+    width:100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom:6px;
+    font-size: 17px;
+    display: block;
+    color: #6cb9f8;
+}
+
+button{
+    background: #000000;
+    width: 100px;
+    border:none;
+    outline:none;
+    color:white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 10px;
+    align-content: center;
+    text-align: center;
+}
+.contact-left h3{
+    font-weight:600;
+    margin-bottom: 30px;
+
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
+}

@@ -1,0 +1,143 @@
+/* Full Page Background */
+body {
+    font-family: Arial, sans-serif;
+    background: url('jack-ward-rknrvCrfS1k-unsplash.jpg') center center/cover;
+    min-height: 160vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f7f7;
+}
+/* Navigation Bar */
+.navbar {
+    width: 100%;
+    background-color: #007ee5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 20px;
+    position: relative;
+    margin-top: -8px;
+    top: 0%;
+    left: 0%;
+    
+}
+
+/* Navigation Links */
+.nav-links a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px 15px;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+}
+.company-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #f7f7f7;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* About Us Section */
+.about-us {
+    background: rgba(3, 102, 231, 0.185);
+    width: 80%;
+    max-width: 800px;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    backdrop-filter: blur(5px);
+}
+
+/* Title */
+.about-us h1 {
+    font-family: "Pacifico", serif;
+    font-size: 6vh;
+    color: #f7f7f7;
+    text-shadow: 0 0 10px #00000037, 0 0 20px #0000003e, 0 0 30px #00000037;
+}
+
+/* Paragraphs */
+.about-us p {
+    font-size: x-large;
+    text-shadow: 0 0 10px #00000037, 0 0 20px #0000003e, 0 0 30px #00000037;
+    line-height: 1.5;
+}
+
+/* Team Section */
+.team {
+    background: rgba(3, 102, 231, 0.185);
+    width: 80%;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.team h2 {
+    font-family: "Pacifico", serif;
+    font-size: 5vh;
+    color: #f7f7f7;
+    text-shadow: 0 0 10px #00000037, 0 0 20px #0000003e, 0 0 30px #00000037;
+}
+
+.team-member {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Icon and Alignment */
+.member-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.profile-icon {
+    width: 40px;  /* Adjusted Width */
+    height: 40px; /* Adjusted Height */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid #fff;
+}
+
+.team-member h3 {
+    color: #f7f7f7;
+    text-shadow: 0 0 5px #00000037;
+}
+
+.team-member em {
+    color: #dddddd;
+    font-style: normal;
+    text-shadow: 0 0 5px #00000037;
+}
+
+.team-member p {
+    color: #f0f0f0;
+    text-shadow: 0 0 5px #00000037;
+}

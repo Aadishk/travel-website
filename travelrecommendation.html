@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Screen</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Linking External CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="travelrecommendation.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="company-name">
+            Travel Bloom
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for recommendations" id="searchInput">
+            <button onclick="search()">Search</button>
+            
+            <button onclick="clearResults()">Clear</button>
+        </div>
+    </nav>
+   
+
+    <!-- Home Screen Content -->
+<div class="home-area">
+    <h3>EXPLORE DREAM DESTINATION</h3>
+    <p>It encourages exploration of unfamiliar territories embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+</div>
+
+<!-- Search Results (Placed AFTER Home Area) -->
+<div class="search-results" id="searchResults"></div>
+
+
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
